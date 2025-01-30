@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "SuperMeatBoy.sln"
+    "dotnet.defaultSolution": "Projet_SMB_Groupe3.sln"
 }
