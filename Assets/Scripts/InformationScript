@@ -1,0 +1,5 @@
+Assigner bien les scripts à leurs GameObjects respectifs dans Unity.
+
+les GameObjects ont les noms correspondants pour être liés correctement.
+
+Ajoutez des Tags comme "Player", "Trap" et "Finish" dans Unity pour que les scripts les détectent.
