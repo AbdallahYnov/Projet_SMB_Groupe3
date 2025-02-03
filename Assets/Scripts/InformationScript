@@ -3,3 +3,20 @@ Assigner bien les scripts à leurs GameObjects respectifs dans Unity.
 les GameObjects ont les noms correspondants pour être liés correctement.
 
 Ajoutez des Tags comme "Player", "Trap" et "Finish" dans Unity pour que les scripts les détectent.
+
+
+A mettre en Place et oui !!! 
+
+🛠️ Instructions pour Unity
+Créer un GameObject pour le joueur et nomme-le Player.
+Ajoute un Rigidbody2D :
+Gravity Scale = 3 (comme dans Super Meat Boy).
+Freeze Rotation en Z (pour éviter qu’il ne tourne).
+Ajoute un BoxCollider2D correspondant à sa taille.
+Ajoute ce script (PlayerMovement.cs) au Player.
+Ajoute deux GameObjects enfants :
+GroundCheck sous les pieds → (à 0.2f sous le joueur).
+WallCheck sur le côté → (à 0.4f sur les côtés).
+Ajoute les LayerMask :
+Crée un layer Ground et assigne-le aux plateformes.
+Crée un layer Wall et assigne-le aux murs.
