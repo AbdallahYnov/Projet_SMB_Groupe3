@@ -7,13 +7,13 @@ public class PlayerDeath : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Trap")) // Doit être placé sur les scies et obstacles mortels
+        if (collision.CompareTag("Trap")) 
         {
             Die();
         }
     }
 
-    void Die()
+    public void Die()
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         gameObject.SetActive(false);
